@@ -2,41 +2,32 @@
 
 class flowers
 {
-    public $kingdom;
-    public $classification;
-    public $scientific_name;
-    public $worth;
-    public $color;
-}
-{
-     function details()
-    {
-        print('Nature is beautiful indeed </br></br></br>');
-    }
-}
-echo $name->kingdom = 'Kingdom:</br></br>plantae</br></br></br>';
-echo $name->classification = 'Classification:</br></br>Begoniaceae</br></br></br>';
-echo $name->scientific_name = 'Scietific Name:</br></br>Begonia</br></br></br>';
-echo $price->worth = 'Worth:</br></br>$10</br></br></br>';
-echo $looks->color = 'Color:</br></br>red</br></br></br>';
-$looks = new flowers();
-$looks->appearance();
-$price = new flowers();
-$price->purchase();
-$details = new flowers();
-$details->details();
+    public $kingdom = "Plantae  ";
+    public $classification="Begoniaceae  ";
+    public $scientific_name="Begonia  ";
+    public $worth="$10  ";
+    public $color="red";
 
-{
-     function purchase()
+    public function details()
     {
-        print ('Its totally worth it!</br></br></br>');
+        echo "Kingdom:$this->kingdom,Classification:$this->classification,Scientific Name:$this->scientific_name";
+
+    }
+
+    public function purchase()
+    {
+        echo "Price:$this->worth";
+    }
+
+     public function appearance()
+    {
+        echo "Color:$this->color";
     }
 }
-{
-     function appearance()
-    {
-        print('This is such a lovely flower!</br></br></br>');
-    }
-}
+    $flowers=new flowers();
+    $flowers->purchase();
+    $flowers->details();
+    $flowers->appearance();
+
 
 ?>
