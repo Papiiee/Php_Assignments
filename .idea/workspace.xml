@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="490fbee3-b148-4445-93c3-4feeed614860" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="490fbee3-b148-4445-93c3-4feeed614860" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,11 +37,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index5.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="317">
               <caret line="37" column="135" selection-start-line="37" selection-start-column="135" selection-end-line="37" selection-end-column="135" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -71,10 +78,11 @@
         <option value="$PROJECT_DIR$/index4.php" />
         <option value="$PROJECT_DIR$/lesson5.php" />
         <option value="$PROJECT_DIR$/index5.php" />
+        <option value="$PROJECT_DIR$/form.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="67" />
     <option name="width" value="1221" />
     <option name="height" value="635" />
@@ -128,12 +136,12 @@
       <option name="presentableId" value="Default" />
       <updated>1552563398104</updated>
       <workItem from="1552563414938" duration="19878000" />
-      <workItem from="1552858052024" duration="2085000" />
+      <workItem from="1552858052024" duration="3663000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21963000" />
+    <option name="totallyTimeSpent" value="23541000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="67" width="1221" height="635" extended-state="0" />
@@ -218,6 +226,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="317">
           <caret line="37" column="135" selection-start-line="37" selection-start-column="135" selection-end-line="37" selection-end-column="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
