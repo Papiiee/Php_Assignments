@@ -5,7 +5,7 @@ class Restaurant
     public $name;
     public $order;
     public $bill;
-    public $meals;
+    public $meal;
     public $price;
     public $plates;
 
@@ -15,9 +15,9 @@ class Restaurant
         return $this;
     }
 
-    public function setOrder($food, $price)
+    public function setOrder($meal, $price)
     {
-        $this->order = $food . '='. $price;
+        $this->order = $meal . '='. $price;
         return $this;
 
     }

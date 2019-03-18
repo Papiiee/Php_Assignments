@@ -29,5 +29,5 @@ class Flowers
 }
 }
    $flower=new Flowers();
-   $flower->setName('sunflower')->setColor('yellow')->setSCent('nice')->getDetails();
+   $flower->setName('sunflower')->setColor('yellow')->setscent('nice')->getDetails();
    ?>

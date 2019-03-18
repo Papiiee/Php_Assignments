@@ -62,7 +62,7 @@
    {
    public function displayCash()
      {
-   print(" Revenue earrned in 2017:</br></br></br> US$56.729 billion </br></br></br></br></br>");
+   print(" Revenue earned in 2017:</br></br></br> US$56.729 billion </br></br></br></br></br>");
      }
    }
    
