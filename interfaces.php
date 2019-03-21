@@ -1,31 +1,36 @@
 <?php
+
 //interface 1
 interface Interest
 {
     public function calculateInterest();
 }
+
 //interface 2
 interface Profit
 {
     public function calculateProfit();
 
 }
+
 //parent class
-//class Amount
-//{
-//    public $balance;
-//    public function displaybalance($balance)
-//    {
+class Amount
+{
+    public $balance;
+
+    public function displayBalance($balance)
+    {
+        echo "<br><br>Dear banker,this is your balance!: $balance<br><br>";
 //        return $this->balance=$balance;
-//        echo "<br><br>Dear banker,this is your balance!<br><br>";
-//    }
-//}
+    }
+}
+
 //child class inheriting from both interfaces & parent class
-class Money implements Interest,Profit //,Amount
+class Money extends Amount implements Interest, Profit
 
 {
-    public $buyingprice = 200;
-    public $sellingprice = 250;
+    public $buyingprice = 800;
+    public $sellingprice = 950;
     public $principle = 1000;
     public $rate = 0.01;
     public $time = 2;
@@ -40,17 +45,18 @@ class Money implements Interest,Profit //,Amount
         echo "<br><br>The Interest is:<br><br>" . $this->principle * $this->rate * $this->time;
     }
 
-//    public function displaybalance($balance)
+//    public function displayBalance($balance)
 //    {
+//        echo "<br><br>Dear banker,this is your balance!<br><br>";
 //        return $this->balance = $balance;
-//        //echo "<br><br>Balance message<br><br>";
 //    }
 
 }
-$money=new Money();
+
+$money = new Money();
 $money->calculateProfit();
 $money->calculateInterest();
-//$money->displaybalance(1000);
+$money->displayBalance(1000);
 ?>
 
 

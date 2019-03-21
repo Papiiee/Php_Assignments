@@ -2,28 +2,26 @@
 
 abstract class Student
 {
-    public $firstname;
-    public $lastname;
 
-    abstract public function displayDetails();
+    abstract public function displayDetails($firstname,$lastname);
 
 }
 
 class Classrep extends Student
 {
-
+    public $firstname;
+    public $lastname;
     public $age;
 
     public function displayAge($age)
     {
         $this->Age = $age;
-        return $this;
+        echo "<br><br>My age is:$age<br><br>";
     }
 
-    public function displayDetails()
+    public function displayDetails($firstname,$lastname)
     {
-        $this->firstname = "Stephanie";
-        $this->lastname = "Githinji";
+        echo "My name is:$firstname $lastname!";
     }
 }
 
@@ -39,21 +37,20 @@ class Departmentrep extends Student
     public function displayCourse($course)
     {
         $this->course = $course;
-        return $this;
+        echo "<br><br>The Course I take is: $course<br><br>";
     }
 
-    public function displayDetails()
+    public function displayDetails($firstname,$lastname)
     {
-        $this->firstname = "Kiera";
-        $this->lastname = "Shay";
+        echo " My name is:$firstname $lastname!";
     }
 }
 
 $student = new ClassRep();
 $student->displayAge("18 years old");
-$student->displayDetails();
+$student->displayDetails("Stephanie","Githinji");
 $department = new Departmentrep();
 $department->displayCourse("Computer Science");
-$department->displayDetails();
+$department->displayDetails("Kiera","Shay");
 ?>
 
